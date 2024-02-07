@@ -13,7 +13,7 @@ public class Main {
                 929, 929, 939, 941, 958, 985, 988, 994};
 
         System.out.println(Search.linearSearch(data, 13));
-        System.out.println(Search.recursiveBinary(data, 13));
+        System.out.println(data[Search.recursiveBinary(data, 403)]);
 
     }
 
